@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HelloComponent {
   message="Hello world";
+  imgPath="../assets/logo.jpg";
 
   ngOnInit():void{
     this.message="Hello from bridgelabz";
