@@ -5,5 +5,6 @@
     alt="Briglabz logo">
 </div>
 <div>
-    <input [(ngModel)]="name"/><br><br/>
+    <input (input)="onInputEvent($event)"[(ngModel)]="name"/>
+    <span class=error-output>{{this.nameError}}</span>
 </div>
