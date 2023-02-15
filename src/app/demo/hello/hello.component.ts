@@ -9,6 +9,7 @@ export class HelloComponent {
   message="Hello world";
   imgPath="../assets/logo.jpg";
   url="https://www.bridgelabz.com/";
+  name: string="";
 
   ngOnInit():void{
     this.message="Hello from bridgelabz";
